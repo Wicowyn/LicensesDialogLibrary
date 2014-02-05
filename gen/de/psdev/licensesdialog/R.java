@@ -10,20 +10,32 @@ package de.psdev.licensesdialog;
 public final class R {
     public static final class attr {
     }
+    public static final class dimen {
+        /**  Default screen margins, per the Android Design guidelines. 
+         */
+        public static int padding_row=0x7f050000;
+    }
+    public static final class id {
+        public static int dialog_content=0x7f060000;
+        public static int dialog_webview=0x7f060001;
+    }
+    public static final class layout {
+        public static int dialog=0x7f020000;
+    }
     public static final class raw {
-        public static int asl_20_full=0x7f020000;
-        public static int asl_20_summary=0x7f020001;
-        public static int bsd3_full=0x7f020002;
-        public static int bsd3_summary=0x7f020003;
-        public static int isc_full=0x7f020004;
-        public static int isc_summary=0x7f020005;
-        public static int mit_full=0x7f020006;
-        public static int mit_summary=0x7f020007;
-        public static int notices=0x7f020008;
+        public static int asl_20_full=0x7f030000;
+        public static int asl_20_summary=0x7f030001;
+        public static int bsd3_full=0x7f030002;
+        public static int bsd3_summary=0x7f030003;
+        public static int isc_full=0x7f030004;
+        public static int isc_summary=0x7f030005;
+        public static int mit_full=0x7f030006;
+        public static int mit_summary=0x7f030007;
+        public static int notices=0x7f030008;
     }
     public static final class string {
-        public static int notices_close=0x7f030002;
-        public static int notices_default_style=0x7f030000;
-        public static int notices_title=0x7f030001;
+        public static int notices_close=0x7f040002;
+        public static int notices_default_style=0x7f040000;
+        public static int notices_title=0x7f040001;
     }
 }
